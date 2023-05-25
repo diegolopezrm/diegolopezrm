@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://pbs.twimg.com/media/Eu7e3mQVgAImK2o?format=png&name=large" width="400" style="border-radius:50%">
-  <h1 align="center">🌟 Diego Alejandro López Camacho 🌟</h1>
-  <h3 align="center">🚀 Senior Flutter Developer 🚀</h3>
+  <h1  align="center">🌟 Diego Alejandro López Camacho 🌟</h1>
+  <h3  align="center">🚀 Senior Flutter Developer 🚀</h3>
 </p>
 
 👋 Hi there! I'm Diego, a passionate and driven Senior Flutter Developer with more than 8 years in the circle of development. With a proven record in software development, I specialize in mobile technologies, specifically in Flutter. My comprehensive experience ranges from leading development teams to managing intricate projects, all while creating innovative solutions that advance human development.
