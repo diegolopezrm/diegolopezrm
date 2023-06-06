@@ -4,7 +4,7 @@
   <h3  align="center">🚀 Senior Flutter Developer 🚀</h3>
 </p>
 
-👋 Hi there! I'm Diego, a passionate and driven Senior Flutter Developer with more than 8 years in the circle of development. With a proven record in software development, I specialize in mobile technologies, specifically in Flutter. My comprehensive experience ranges from leading development teams to managing intricate projects, all while creating innovative solutions that advance human development.
+👋 Hi there! I'm Diego, a passionate and driven Senior Flutter Developer with more than 5 years in the circle of development. With a proven record in software development, I specialize in mobile technologies, specifically in Flutter. My comprehensive experience ranges from leading development teams to managing intricate projects, all while creating innovative solutions that advance human development.
 
 But that's not all! I'm also highly passionate about blockchain and robotics. It's my belief that these technologies will play a vital role in the future of our society. As such, I'm constantly seeking opportunities to expand my knowledge and skills, staying up-to-date with the latest advancements in these exciting fields.
 
