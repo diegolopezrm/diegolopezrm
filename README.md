@@ -14,7 +14,6 @@ If you're seeking a tech enthusiast who is always eager to embrace new challenge
 
 <p align="center">
   📧 <a href="mailto:diegolopezcamacho@gmail.com">diegolopezcamacho@gmail.com</a> •
-  📞 +57 3166050934 •
   📍 Bucaramanga, Colombia
 </p>
 
