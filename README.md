@@ -23,7 +23,7 @@ I build mobile and web products end to end, from architecture to store release, 
 - **Regulated software.** Led the Flutter app and GCP architecture behind FDA-regulated PCR diagnostic devices at Visby Medical.
 - **AI in production.** Directed 100+ AI chatbots at TK Elevator and embedded agentic workflows (Claude Code) across development, QA and release.
 - **Leadership.** Led and mentored teams of up to 10 engineers across the US, Spain, Chile and Colombia.
-- **Open source.** Merged code in `flutter/flutter`, Google's `a2ui` protocol and `opencv_dart`. Author of two Dart packages on pub.dev.
+- **Open source.** Merged code in `flutter/flutter`, `flutter/genui`, Google's `a2ui` protocol, `jaspr` and `opencv_dart`. Author of two Dart packages on pub.dev.
 - **Founder** of [DL Soft](https://dlsoft.dev), building software for healthcare, legal, government and education since 2019.
 
 > ![Open to work](https://img.shields.io/badge/Open_to_work-2EA043?style=flat-square) **Open to senior mobile / full-stack roles**, remote in US time zones. Fastest way to reach me is [email](mailto:diegolopezcamacho@gmail.com).
@@ -33,6 +33,7 @@ I build mobile and web products end to end, from architecture to store release, 
 ## <img src="https://api.iconify.design/octicon:telescope-16.svg?color=%237d8590&height=20" height="20" align="absmiddle" alt="" /> Now
 
 - Contributing to Flutter's foldable-device support ahead of the iPhone Duo.
+- Fixing accessibility in [`flutter/genui`](https://github.com/flutter/genui): what a generated component says to a screen reader, measured rather than assumed.
 - Maintaining [`genui_gen`](https://pub.dev/packages/genui_gen), code generation for Google's GenUI framework.
 - Running a cross-language conformance suite against the four `a2ui` client implementations.
 
@@ -42,11 +43,12 @@ I build mobile and web products end to end, from architecture to store release, 
 
 | Project | Contribution | Status |
 |---|---|---|
-| [**flutter/flutter**](https://github.com/flutter/flutter) | [#191647](https://github.com/flutter/flutter/pull/191647) Report web `env(safe-area-inset-*)` as `FlutterView.viewPadding`. Closes [#84833](https://github.com/flutter/flutter/issues/84833), open since 2021. | ![Merged Sep 2026](https://img.shields.io/badge/Merged-Sep_2026-8250DF?style=flat-square&labelColor=8250DF&color=30363D) |
-| [**flutter/flutter**](https://github.com/flutter/flutter) | [#192721](https://github.com/flutter/flutter/pull/192721) Animate the child between sub-screens when the fold changes. | ![In review](https://img.shields.io/badge/In_review-1F6FEB?style=flat-square) |
-| [**a2ui-project/a2ui**](https://github.com/a2ui-project/a2ui) · Google's agent-to-UI protocol | Six PRs across the Dart, TypeScript and Swift clients, including a [cross-language conformance suite](https://github.com/a2ui-project/a2ui/pull/2497) for the expression parser. Ships in `@a2ui/web_core` 0.11.0. | ![6 PRs merged](https://img.shields.io/badge/Merged-6_PRs-8250DF?style=flat-square&labelColor=8250DF&color=30363D) |
+| [**flutter/flutter**](https://github.com/flutter/flutter) | [#191647](https://github.com/flutter/flutter/pull/191647) Report web `env(safe-area-inset-*)` as `FlutterView.viewPadding`. Closes [#84833](https://github.com/flutter/flutter/issues/84833), open since 2021. Picked up in [Flutter Notable Commits](https://github.com/flutter/flutter/issues/181433). | ![Merged Sep 2026](https://img.shields.io/badge/Merged-Sep_2026-8250DF?style=flat-square&labelColor=8250DF&color=30363D) |
+| [**flutter/genui**](https://github.com/flutter/genui) · Google's generative UI SDK | [#1043](https://github.com/flutter/genui/pull/1043) An image now announces the accessibility text the catalog already defined for it. Three more fixes in review, from a semantics recorder I wrote that found them. | ![Merged Sep 2026](https://img.shields.io/badge/Merged-Sep_2026-8250DF?style=flat-square&labelColor=8250DF&color=30363D) |
+| [**a2ui-project/a2ui**](https://github.com/a2ui-project/a2ui) · Google's agent-to-UI protocol | Six PRs across the Dart, TypeScript and Swift clients, including a [cross-language conformance suite](https://github.com/a2ui-project/a2ui/pull/2497) for the expression parser. Sixteen issues filed from measured divergences between the four implementations. | ![6 PRs merged](https://img.shields.io/badge/Merged-6_PRs-8250DF?style=flat-square&labelColor=8250DF&color=30363D) |
+| [**schultek/jaspr**](https://github.com/schultek/jaspr) · the Dart web framework behind flutter.dev | [#893](https://github.com/schultek/jaspr/pull/893) Parse raw HTML against the element it lands in · [#897](https://github.com/schultek/jaspr/pull/897) Ignore a malformed `If-Modified-Since`. Three more on the dev server in review. | ![2 PRs merged](https://img.shields.io/badge/Merged-2_PRs-8250DF?style=flat-square&labelColor=8250DF&color=30363D) |
 | [**rainyl/opencv_dart**](https://github.com/rainyl/opencv_dart) | [#451](https://github.com/rainyl/opencv_dart/pull/451) Fail early when OpenCV is older than dartcv requires · [#452](https://github.com/rainyl/opencv_dart/pull/452) Let projects choose which OpenCV to build against. | ![Merged](https://img.shields.io/badge/Merged-8250DF?style=flat-square) |
-| [**schultek/jaspr**](https://github.com/schultek/jaspr) · the Dart web framework behind flutter.dev | Five PRs on the dev server and renderer: SVG namespace in raw HTML, leaked connections, nested CSS, `--enable-experiment`. | ![In review](https://img.shields.io/badge/In_review-1F6FEB?style=flat-square) |
+| [**flutter/flutter**](https://github.com/flutter/flutter) | [#192721](https://github.com/flutter/flutter/pull/192721) Animate the child between sub-screens when the fold changes · [#193362](https://github.com/flutter/flutter/pull/193362) Let the browser handle Control+wheel zoom. | ![In review](https://img.shields.io/badge/In_review-1F6FEB?style=flat-square) |
 
 <br/>
 
@@ -58,7 +60,9 @@ I build mobile and web products end to end, from architecture to store release, 
 [![pub version](https://img.shields.io/pub/v/genui_gen_builder?style=flat-square&logo=dart&logoColor=white&label=genui_gen_builder)](https://pub.dev/packages/genui_gen_builder)
 [![pub points](https://img.shields.io/pub/points/genui_gen_builder?style=flat-square&label=pub%20points)](https://pub.dev/packages/genui_gen_builder/score)
 
-Annotate a Flutter widget, run `build_runner`, and get a [GenUI](https://pub.dev/packages/genui) `CatalogItem` whose JSON schema, widget builder and few-shot examples are derived from the constructor. The catalog cannot drift from the widget because nothing is written by hand. The builder scores 160/160 on pub.dev's quality report.
+Annotate a Flutter widget, run `build_runner`, and get a [GenUI](https://pub.dev/packages/genui) `CatalogItem` whose JSON schema, widget builder and few-shot examples are derived from the constructor. The catalog cannot drift from the widget because nothing is written by hand. Annotate a plain Dart function and it becomes a catalog function the agent can call. The builder scores 160/160 on pub.dev's quality report.
+
+It also ships the tools an agent-composed interface needs and an ordinary app does not: record a real session and replay it with no model or network, keep what every component says to a screen reader and fail the build when it changes, and diff a catalog against the one you published to see what a rename costs the agent.
 
 <br/>
 
