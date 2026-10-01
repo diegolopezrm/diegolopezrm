@@ -64,6 +64,8 @@ Annotate a Flutter widget, run `build_runner`, and get a [GenUI](https://pub.dev
 
 It also ships the tools an agent-composed interface needs and an ordinary app does not: record a real session and replay it with no model or network, keep what every component says to a screen reader and fail the build when it changes, and diff a catalog against the one you published to see what a rename costs the agent.
 
+**[Quincena](https://diegolopezrm.github.io/quincena/)** · [source](https://github.com/diegolopezrm/quincena) puts all of it in one app: personal finance where an agent composes every answer from a catalog of twenty generated components, in Spanish and English. It runs in the browser with no account or key, and replays five sessions Gemini answered for real.
+
 <br/>
 
 ## <img src="https://api.iconify.design/octicon:briefcase-16.svg?color=%237d8590&height=20" height="20" align="absmiddle" alt="" /> Experience
